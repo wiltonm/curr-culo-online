@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(4, 156, 149);
+    margin: 100px;
+    background-image: url(./assets/imagens/Buffer-rafiki.svg);
+    background-size: 1350px;
+
+
+}
+div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 2000px;
+    font-family: url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,500&display=swap);
+    font-family: 'Roboto', sans-serif;
+    
+}
