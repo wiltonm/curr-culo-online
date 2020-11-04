@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Wilton Martins</title>
+</head>
+<body>
+    <div>
+    <header>
+        <h1>Wilton Aparecido Martins Júnior</h1>
+        <h2>Análise e Desenvolvimento de Sistemas. Uniube, 2023</h2>
+    </header>
+    <p>24 anos, solteiro, Uberlândia-MG</p>
+    <table>
+        <caption>Contato</caption>
+        <thead>
+            <tr>
+                <th><a href="https://whats.link/wiltonmartins">Whatsapp</a>|</th>
+                <th><a href="https://www.linkedin.com/in/wilton-aparecido-martins-j%C3%BAnior-092a18134/">Linkedin</a>|</th>
+                <th><a href="https://github.com/wiltonm">Github</a>|</th>
+            </tr>
+        </thead>
+    </table>
+    <h1>Objetivo</h1>
+    <p>Trabalhar em uma empresa onde possa contribuir de forma eficiente com estímulo de trocas de  </p><p>experiências visando enriquecimento profissional e pessoal.</p><br>
+        <h1>Experiências</h1>
+        <ul class="tree">
+            <li>
+                <span wm-folder>Centro de Formação de Condutores</span>
+                <ul>
+                    <li>
+                        <span wm-folder>Assistente de Vendas</span>  
+                        <ul>
+                            <li>Prospecção de novos candidatos</li>
+                            <li>Rotinas Administrativas</li>
+                            <li>Vendas de pacotes</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span wm-folder>Atendimento Externo</span> 
+                        <ul>
+                            <li>Ações externas</li>
+                            <li>Telemarketing</li>
+                            <li>Agendamentos e atendimentos personalizados</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <span wm-folder>Lóterica Cardoso e Faria</span> 
+                <ul>
+                    <li>
+                        <span wm-folder>Operador de Caixa</span>
+        
+                     <ul>
+                        <li>Atendimento no caixa</li>
+                        <li>Abertura de Contas</li>
+                        <li>Vendas de empréstimos consignados</li>
+                    </ul>
+        
+                    </li>
+                    
+                </ul>
+            </li>
+            <li>
+                <span wm-folder>Callink Serviços de Call Center</span>
+
+                <ul>
+                    <li>Atendimento Ativo</li>
+                    <li>Vendas de Empréstimos</li>
+                    <li>Negociações de Dívidas</li>
+                </ul>
+            </li>
+            <li>
+                <span wm-folder>NFX Project</span>
+                
+                <ul>
+                    <li>Gerenciamento de Mídias Sociais</li>
+                    <li>Marketing Digital</li>
+                    <li>Prospecção de Novos Usuários</li>
+                </ul>
+                
+            </li>
+        </ul>
+        <link rel="stylesheet" href="http://files.cod3r.com.br/curso-web/tree.css">
+        <h1>Habilidades e Competências</h1>
+        <ul>
+            <li>
+                <span>Microsoft Office</span>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <span>Inglês Fluente</span>
+            </li>
+        </ul>
+        <ul>
+            <li>Antendimento ao Cliente</li>
+        </ul>
+        <ul>
+            <li>HTML, CSS e Javascript</li>
+        </ul>      
+    </div>
+    
+        
+</body>
+</html>
+<script>
+            document.querySelectorAll('[wm-folder]').forEach(folder =>{
+                folder.onclick = function(e) {
+                    const ul = folder.nextElementSibling
+                    const d = ul.style.display
+                    ul.style.display = d === 'none' ? 'block' : 'none'
+                }
+            })
+        </script>
